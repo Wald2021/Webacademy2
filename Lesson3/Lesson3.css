@@ -1,0 +1,15 @@
+.Container {
+    display: flex;
+    position: absolute;
+    width: 2335px;
+    height: 1796px;
+    border: 1px solid blue;
+}
+
+.Central-Panel{
+        border: 2px solid red;
+}
+
+.Right-Panel {
+    background-color: aquamarine;
+}
