@@ -38,8 +38,7 @@
 
 
 .Meet-List {
-    border: 2px solid red;
-    background: yellowgreen;
+    border: 1px solid #2A2E41B2;
     flex: 1535 0 0;
 }
 
@@ -86,11 +85,29 @@
   bottom: 0;
 }
 
-.pre_icon, .next_icon {
+.month-button {
   flex: 0 0 18px;
-
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+.month-button:focus,
+.month-button:hover {
+  color: rgba(60, 130, 249, 1);
+  outline: none;
 }
 
+.month-button-icon {
+  display: block;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin:round;
+}
 .Days_name {
   font-size: 0.72222rem;
   margin: 20px 0 0;
@@ -179,7 +196,7 @@
 }
 
 .Calendar_Categories::after {
-  background: rgb(99, 95, 95);
+  background: #fff;
   mix-blend-mode: normal;
   opacity: 0.13;
   left: 0;
@@ -226,3 +243,7 @@
   visibility: hidden;  
 }
 
+.Categories_button:focus,
+.Categories_button:hover {
+  mix-blend-mode: multiply;
+}
