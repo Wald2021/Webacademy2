@@ -1,0 +1,56 @@
+.menu,
+.news,
+.list,
+.footer,
+.nav,
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    font-size: 2em;
+    color: black;
+}
+
+.logo {
+    background: rgb(240, 190, 46);
+    grid-area: logo;
+}
+
+.menu {
+    background: rgb(244, 15, 15);
+    grid-area: menu;
+}
+
+.nav {
+    background: rgb(51, 51, 51);
+    color: #FBEAFF;
+    grid-area: nav;
+}
+
+.list {
+    background: rgb(240, 190, 46);
+    grid-area: list;
+}
+
+.news {
+    background: rgb(172, 76, 76);
+    color: #FBEAFF;
+    grid-area: news;
+}
+
+.footer {
+    background: rgb(240, 190, 46);
+    grid-area: footer;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:    "logo menu menu"
+                            "news list nav"
+                            "footer footer nav";
+    grid-template-columns: 100px 1fr calc((100%-100px)/100*35);
+    grid-template-rows: 100px 1fr 150px;
+}
