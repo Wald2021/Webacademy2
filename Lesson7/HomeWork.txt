@@ -1,0 +1,4 @@
+Return the Missing Element: https://www.codewars.com/kata/reviews/52995cff9ce954dc50000a86/groups/617ef4062f48c700012cff8c
+Add property to every object in array: https://www.codewars.com/kata/reviews/54e8cae858b1db0d2a000148/groups/56dd4b454c9055f89c000cec
+Find Your Villain Name: https://www.codewars.com/kata/reviews/536c36d47fc09aeb04000006/groups/617ff23e47704a00017a7a7c
+Take a Ten Minute Walk
